@@ -17,8 +17,6 @@ export const useSignup = () => {
         email,
         password
       );
-      console.log(res.user);
-
       if (!res) {
         throw new Error("Could not complete signup");
       }
@@ -30,7 +28,6 @@ export const useSignup = () => {
       setIsPending(false);
       setError(null);
     } catch (err) {
-      console.log(err.message);
       setError(err.message);
       setIsPending(false);
     }

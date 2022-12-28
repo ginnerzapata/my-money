@@ -1,2 +1,5 @@
 # my-money
-Project from React/Firebase course from NetNinja
+
+See it live [here](https://mymoney-8eb6c.web.app/login)
+
+Ask owner for firebase config file
